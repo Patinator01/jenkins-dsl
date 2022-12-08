@@ -14,7 +14,7 @@ void createPipeline(it) {
     pipelineJob(jobname) {
         description(desc)
         parameters {
-            choiceParam('Gender', ['Female (default)', 'Male', 'Not sure'], 'Select gender)
+            choiceParam('Gender', ['Female (default)', 'Male', 'Not sure'], 'Select gender')
         }
 
         definition {
